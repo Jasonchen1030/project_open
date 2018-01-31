@@ -1,0 +1,3507 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>仿JD2016-04-14</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css" />
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+</head>
+<body>
+<div class="top-nav">
+	<div class="top-nav-menu clear">
+		<ul class="city">
+			<li>
+				<div class="city-selected">送至：北京<span class="glyphicon glyphicon-menu-down"></span></div>
+				<dl>
+					<dd class="city-menu clear">
+						<div class="city-item"><a href="#">北京</a></div>
+						<div class="city-item"><a href="#">上海</a></div>
+						<div class="city-item"><a href="#">天津</a></div>
+						<div class="city-item"><a href="#">沈阳</a></div>
+						<div class="city-item"><a href="#">四川</a></div>
+						<div class="city-item"><a href="#">甘肃</a></div>
+						<div class="city-item"><a href="#">云南</a></div>
+						<div class="city-item"><a href="#">黑龙江</a></div>
+						<div class="city-item"><a href="#">贵州</a></div>
+						<div class="city-item"><a href="#">广州</a></div>
+						<div class="city-item"><a href="#">福建</a></div>
+						<div class="city-item"><a href="#">湖南</a></div>
+						<div class="city-item"><a href="#">青海</a></div>
+						<div class="city-item"><a href="#">西藏</a></div>
+						<div class="city-item"><a href="#">河南</a></div>
+						<div class="city-item"><a href="#">香港</a></div>
+						<div class="city-item"><a href="#">澳门</a></div>
+						<div class="city-item"><a href="#">台湾</a></div>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+		<ul class="entry">
+			<!-- 已登录 -->
+			<!-- <li>
+				<a class="username" href="#">admin</a>
+				<a class="exit" href="#">退出</a>
+			</li> -->
+			<!-- 未登录 -->
+			<li>
+				<span class="pls-login"><a href="#">您好，请登录</a></span>
+				<span class="free-reg"><a href="#">免费注册</a></span>
+			</li>
+			<li><a class="entry-title" href="#" >我的订单</a></li>
+			<li class="myjd">
+				<div class="entry-title">我的京东<span class="glyphicon glyphicon-menu-down"></span></div>
+				<dl>
+					<dd class="user-center">
+						<div class="user-info clear">
+							<a href="#"><img src="./images/no-img.jpg"></a>
+							<div class="user-status">
+								<div class="myjd-login"><a href="#">您好，请登录</a></div>
+								<a href="#">优惠卷</a>
+								<span>|</span>
+								<a href="#">消息</a>
+							</div>
+						</div>
+						<div class="user-menu clear">
+							<div class="menu-item"><a href="#">待处理订单</a></div>
+							<div class="menu-item"><a href="#">我的关注</a></div>
+							<div class="menu-item"><a href="#">咨询回复</a></div>
+							<div class="menu-item"><a href="#">我的京豆</a></div>
+							<div class="menu-item"><a href="#">降价商品</a></div>
+							<div class="menu-item"><a href="#">我的理财</a></div>
+							<div class="menu-item"><a href="#">返修退换货</a></div>
+							<div class="menu-item"><a href="#">我的白条</a></div>
+						</div>
+						<hr class="separate" />
+						<div class="user-footprint">
+							<div class="footprint-title clear">
+								<span class="footprint">我的足迹</span>
+								<span class="more"><a class="more" href="#">更多&nbsp;&nbsp;></a></span>
+							</div>
+							<a href="#"><img src="./images/book.jpg"></a>
+							<a href="#"><img src="./images/glove.jpg"></a>
+							<a href="#"><img src="./images/book.jpg"></a>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li><a class="entry-title" href="#" >京东会员</a></li>
+			<li><a class="entry-title" href="#">企业入口</a></li>
+			<li class="mobilejd">
+				<div class="entry-title"><i class="phone-ico"></i>手机京东<span class="glyphicon glyphicon-menu-down"></span></div>
+				<dl>
+					<dd class="mobile-jd">
+						<div class="client-info clear">
+							<img src="./images/code.png">
+							<div class="client-details">
+								<div class="client-name">京东客户端</div>
+								<div class="client-discount">新人专享188元大礼包</div>
+								<span>Android</span>
+								<span>Iphone</span>
+								<span>ipad</span>
+							</div>
+						</div>
+						<hr class="separate" />
+						<div class="client-info clear">
+							<img src="./images/code2.png">
+							<div class="client-details">
+								<div class="client-name">京东钱包客户端</div>
+								<div class="client-discount">扫一扫封顶立减999元</div>
+								<span>Android</span>
+								<span>iphone</span>
+								<span>ipad</span>
+							</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li class="carejd">
+				<div class="entry-title">关注京东<span class="glyphicon glyphicon-menu-down"></span></div>
+				<dl>
+					<dd class="jd-care">
+						<div class="jd-wd">
+							<img src="./images/jd-wd.png"><br/>
+							<span>关注京东微店</span>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li class="servicejd">
+				<div class="entry-title">客户服务<span class="glyphicon glyphicon-menu-down"></span></div>
+				<dl>
+					<dd class="service">
+						<div class="service-object clear">
+							<div class="service-object-title">客户</div>
+							<div class="service-item">帮助中心</div>
+							<div class="service-item">售后服务</div>
+							<div class="service-item">在线客服</div>
+							<div class="service-item">意见建议</div>
+							<div class="service-item">客服邮箱</div>
+						</div>
+						<hr class="separate" />
+						<div class="service-object clear">
+							<div class="service-object-title">商户</div>
+							<div class="service-item">京东商学院</div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li class="navjd">
+				<div class="entry-title">网站导航<span class="glyphicon glyphicon-menu-down"></span></div>
+				<dl>
+					<dd class="web-nav clear">
+						<div class="web-typt web-feature">
+							<div class="web-typt-title">特色主题</div>
+							<div class="nav-item"><a href="#">品牌街</a></div>
+							<div class="nav-item"><a href="#">好东西</a></div>
+							<div class="nav-item"><a href="#">京东预售</a></div>
+							<div class="nav-item"><a href="#">尖er货</a></div>
+							<div class="nav-item"><a href="#">京东首发</a></div>
+							<div class="nav-item"><a href="#">今日团购</a></div>
+						</div>
+						<div class="web-typt web-industry">
+							<div class="web-typt-title">行业频道</div>
+							<div class="nav-item"><a href="#">服装城</a></div>
+							<div class="nav-item"><a href="#">家用电器</a></div>
+							<div class="nav-item"><a href="#">电脑办公</a></div>
+							<div class="nav-item"><a href="#">手机</a></div>
+							<div class="nav-item"><a href="#">美妆馆</a></div>
+							<div class="nav-item"><a href="#">食品</div></a>
+						</div>
+						<div class="web-typt web-life">
+							<div class="web-typt-title">生活服务</div>
+							<div class="nav-item"><a href="#">京东众筹</a></div>
+							<div class="nav-item"><a href="#">白条</a></div>
+							<div class="nav-item"><a href="#">京东钱包</a></div>
+							<div class="nav-item"><a href="#">京东小金库</a></div>
+							<div class="nav-item"><a href="#">理财</a></div>
+							<div class="nav-item"><a href="#">话费</a></div>
+						</div>
+						<div class="web-typt web-more">
+							<div class="web-typt-title">更多精选</div>
+							<div class="nav-item"><a href="#">京东社区</a></div>
+							<div class="nav-item"><a href="#">京东通讯</a></div>
+							<div class="nav-item"><a href="#">在线读书</a></div>
+							<div class="nav-item"><a href="#">京东E卡</a></div>
+							<div class="nav-item"><a href="#">智能社区</a></div>
+							<div class="nav-item"><a href="#">游戏社区</a></div>
+						</div>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="top-ad"></div>
+<div class="form clear">
+	<div class="logo form-item">
+		<a href="#"><img src="./images/logo-big.png"></a>
+	</div>
+	<div class="search form-item">
+		<div class="search-box">
+			<input type="text" name="search" placeholder="闪购" />
+			<button class="btn-search">搜索</button>
+		</div>
+		<div class="search-tips">
+			<a href="#">买4免1</a>
+			<a href="#">白条领劵</a>
+			<a href="#">1元抢宝</a>
+			<a href="#">0元使用</a>
+			<a href="#">防晒衣</a>
+			<a href="#">9.9包邮</a>
+			<a href="#">登记箱</a>
+			<a href="#">华为p9</a>
+			<a href="#">9.9元9件</a>
+		</div>
+	</div>
+	<div class="buy-car">
+		<div class="car-entry">
+			<img src="./images/ico/buy-car-ico.png">
+			<span>我的购物车</span>
+			<i>></i>
+		</div>
+		<dl>
+			<dd class="buy-car-info">
+				<img src="./images/ico/empty-car.png">
+				<span>购物车中还没有商品，赶紧选购吧!</span>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="goods-nav-box">
+	<div class="goods-column clear">
+		<div class="goods-all"><a href="#">全部商品分类</a></div>
+		<ul>
+			<li><a href="#">服装城</a></li>
+			<li><a href="#">美妆馆</a></li>
+			<li><a href="#">超市</a></li>
+			<li><a href="#">全球购<i class="znq-ico"></i></a></li>
+			<li><a href="#">闪购</a></li>
+			<li><a href="#">团购</a></li>
+			<li><a href="#">拍卖</a></li>
+			<li><a href="#">金融</a></li>
+		</ul>
+	</div>
+</div>
+<div class="focus clear">
+	<div class="goods-nav">
+		<ul>
+			<li>
+				<a href="#" class="focus-nav-item">家用电器</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">品牌日<i>></i></a></li>
+									<li><a href="#">家电城<i>></i></a></li>
+									<li><a href="#">只能生活馆<i>></i></a></li>
+									<li><a href="#">京东净化馆<i>></i></a></li>
+									<li><a href="#">京东帮服务店<i>></i></a></li>
+									<li><a href="#">值得买精选<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">大家电<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">厨卫大电<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">厨房小店<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">生活电器<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">个护健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">五金家装<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">大家电<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad1.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad2.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">手机、数码、京东通讯</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">玩3C<i>></i></a></li>
+									<li><a href="#">手机频道<i>></i></a></li>
+									<li><a href="#">网上营业厅<i>></i></a></li>
+									<li><a href="#">配件城<i>></i></a></li>
+									<li><a href="#">影像Club<i>></i></a></li>
+									<li><a href="#">依旧换新<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">手机通讯<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">手机通讯</a></li>
+										<li><a href="#">京东通讯</a></li>
+										<li><a href="#">运营商</a></li>
+										<li><a href="#">手机配件</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">京东通讯<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">运营商<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">手机配件<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">摄影摄像<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">数码配件<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">影音娱乐<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad3.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad4.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">电脑、办公</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">品牌日<i>></i></a></li>
+									<li><a href="#">家电城<i>></i></a></li>
+									<li><a href="#">只能生活馆<i>></i></a></li>
+									<li><a href="#">京东净化馆<i>></i></a></li>
+									<li><a href="#">京东帮服务店<i>></i></a></li>
+									<li><a href="#">值得买精选<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">电脑整机<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">电脑配件<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">外设产品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">游戏设备<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">网络产品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">办公设备<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">游戏耗材<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad5.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad6.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">家居、家具、家装、厨具</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">家装城<i>></i></a></li>
+									<li><a href="#">居家日用<i>></i></a></li>
+									<li><a href="#">精品家具<i>></i></a></li>
+									<li><a href="#">家装建材<i>></i></a></li>
+									<li><a href="#">厨房达人<i>></i></a></li>
+									<li><a href="#">毛毛狗狗<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">厨具<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">家装建材<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">厨房小店<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">家纺<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">家居<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">灯具<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">生活日用<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad7.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad8.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">男装、女装、内衣</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">男装<i>></i></a></li>
+									<li><a href="#">女装<i>></i></a></li>
+									<li><a href="#">内衣<i>></i></a></li>
+									<li><a href="#">珠宝<i>></i></a></li>
+									<li><a href="#">国际品牌<i>></i></a></li>
+									<li><a href="#">饰品<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">女装<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">男装<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">内衣<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">配饰<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad9.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad10.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">个护化妆、清洁用品、宠物</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">清洁用品<i>></i></a></li>
+									<li><a href="#">美妆商城<i>></i></a></li>
+									<li><a href="#">官方旗舰店<i>></i></a></li>
+									<li><a href="#">美妆特卖<i>></i></a></li>
+									<li><a href="#">装比社<i>></i></a></li>
+									<li><a href="#">全球购美妆<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">面部护肤<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">洗发护发<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">身体护肤<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">口腔护理<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">个护健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">女性护理<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">香水彩妆<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad11.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad12.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">鞋靴、箱包、珠宝、奢侈品</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">男鞋<i>></i></a></li>
+									<li><a href="#">女鞋<i>></i></a></li>
+									<li><a href="#">箱包<i>></i></a></li>
+									<li><a href="#">钟表<i>></i></a></li>
+									<li><a href="#">奢侈品<i>></i></a></li>
+									<li><a href="#">女包<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">时尚女鞋<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">流行女鞋<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">流行男鞋<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">精品男包<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">个护健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">五金家装<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">大家电<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad13.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad14.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">运动户外、钟表</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">运动城<i>></i></a></li>
+									<li><a href="#">户外管<i>></i></a></li>
+									<li><a href="#">只能生活馆<i>></i></a></li>
+									<li><a href="#">篮球馆<i>></i></a></li>
+									<li><a href="#">健身馆<i>></i></a></li>
+									<li><a href="#">值得买精选<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">运动鞋包<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">运动服饰<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">健身装备<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">生活电器<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">个护健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">体育用品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">骑行用品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad15.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad16.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">汽车、汽车用品</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">全新汽车<i>></i></a></li>
+									<li><a href="#">汽车用品<i>></i></a></li>
+									<li><a href="#">只能生活馆<i>></i></a></li>
+									<li><a href="#">旗舰店<i>></i></a></li>
+									<li><a href="#">二手车<i>></i></a></li>
+									<li><a href="#">值得买精选<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">汽车车型<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">汽车价格<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">汽车装饰<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">汽车服务<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">车载电器<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">安全自驾<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">大家电<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad17.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad18.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">母婴、玩具乐器</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">品牌日<i>></i></a></li>
+									<li><a href="#">母婴<i>></i></a></li>
+									<li><a href="#">玩具乐器<i>></i></a></li>
+									<li><a href="#">品牌街<i>></i></a></li>
+									<li><a href="#">亲子馆<i>></i></a></li>
+									<li><a href="#">大牌特卖<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">奶粉<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">营养辅食<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">安全座椅<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">妈妈专区<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">个护健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">玩具乐器<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">童装童鞋<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad19.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad20.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">食品、酒类、生鲜、特产</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">地方特产<i>></i></a></li>
+									<li><a href="#">生鲜<i>></i></a></li>
+									<li><a href="#">酒类<i>></i></a></li>
+									<li><a href="#">全球购没事<i>></i></a></li>
+									<li><a href="#">食品饮料<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">中外名酒<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">进口食品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">休闲食品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">生活电器<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">地方特产<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">生鲜食品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">食品礼卷<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad21.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad22.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">营养保健</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">保健食品<i>></i></a></li>
+									<li><a href="#">滋补养生<i>></i></a></li>
+									<li><a href="#">健康监测<i>></i></a></li>
+									<li><a href="#">两性情话<i>></i></a></li>
+									<li><a href="#">靓眼世界<i>></i></a></li>
+									<li><a href="#">值得买精选<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">大家电<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">营养健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">营养成分<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">成人用品<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">个护健康<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">保健器械<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">滋补养生<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad23.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad24.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">图书、音像、电子书</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">图书频道<i>></i></a></li>
+									<li><a href="#">影像<i>></i></a></li>
+									<li><a href="#">电子书<i>></i></a></li>
+									<li><a href="#">图书榜<i>></i></a></li>
+									<li><a href="#">音乐榜<i>></i></a></li>
+									<li><a href="#">影视榜<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">影像<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">少儿<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">教育<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">生活电器<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">文艺<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">人文社科<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">科技<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad25.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad26.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">彩票、旅行、充值、票务</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">充值缉费<i>></i></a></li>
+									<li><a href="#">京东彩票<i>></i></a></li>
+									<li><a href="#">只能生活馆<i>></i></a></li>
+									<li><a href="#">培训教育<i>></i></a></li>
+									<li><a href="#">优选机票<i>></i></a></li>
+									<li><a href="#">火车票<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">彩票<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">通讯充值<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">游戏<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">本地生活<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">演出票务<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">教育培训<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">商务服务<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad27.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad28.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<a href="#" class="focus-nav-item">理财、众筹、白条、保险</a>
+				<span class="focus-nav-ico glyphicon glyphicon-menu-right"></span>
+				<dl>
+					<dd class="goods-category clear">
+						<div class="goods-category-left">
+							<div class="category-theme clear">
+								<ul>
+									<li><a href="#">金融首页<i>></i></a></li>
+									<li><a href="#">尖er货<i>></i></a></li>
+									<li><a href="#">玩bigger<i>></i></a></li>
+									<li><a href="#">大牌免息<i>></i></a></li>
+									<li><a href="#">财发现<i>></i></a></li>
+								</ul>
+							</div>
+							<div class="category-menu">
+								<div class="category-item clear">
+									<a class="category-name" href="#">理财<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">酒柜</a></li>
+										<li><a href="#">家电配件</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">众筹<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">东家<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">白条<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">钱包<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+								<div class="category-item clear">
+									<a class="category-name" href="#">保险<span class="glyphicon glyphicon-menu-right"></span></a>
+									<ul class="category-content clear">
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">空调</a></li>
+										<li><a href="#">冰箱</a></li>
+										<li><a href="#">洗衣机</a></li>
+										<li><a href="#">家庭影院</a></li>
+										<li><a href="#">DVD</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+										<li><a href="#">平板电视</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="category-goods-right">
+							<ul>
+								<li><a href="#"><img src="./images/goods-logo/md.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/he.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/tcl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/hs.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/ch.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/pl.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/lb.jpg"></a></li>
+								<li><a href="#"><img src="./images/goods-logo/bl.jpg"></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="./images/banner-ad29.jpg"></a></li>
+								<li><a href="#"><img src="./images/banner-ad30.jpg"></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+	<div class="banner">
+		<ul class="banner-change">
+			<li><a href="#"><img src="./images/banner1.jpg"></a></li>
+			<li><a href="#"><img src="./images/banner2.jpg"></a></li>
+			<li><a href="#"><img src="./images/banner3.jpg"></a></li>
+			<li><a href="#"><img src="./images/banner4.jpg"></a></li>
+			<li><a href="#"><img src="./images/banner5.jpg"></a></li>
+		</ul>
+		<ul class="banner-btn">
+			<li><a class="prev"></a></li>
+			<li><a class="next"></a></li>
+		</ul>
+		<ol class="banner-nav clear">
+			<li class="active"><a>1</a></li>
+			<li><a>2</a></li>
+			<li><a>3</a></li>
+			<li><a>4</a></li>
+			<li><a>5</a></li>
+		</ol>
+	</div>
+	<div class="side-bar">
+		<div class="news">
+			<div class="news-title">
+				<h2>京东快报</h2>
+				<a href="#">更多&nbsp;&nbsp;></a>
+			</div>
+			<div class="news-content">
+				<ul>
+					<li><a href="#"><span>[特惠]</span>运动大牌低至6元/期</a></li>
+					<li><a href="#"><span>[公告]</span>京东帮华北区配送提速</a></li>
+					<li><a href="#"><span>[特惠]</span>全球购周年庆全球名表低至99</a></li>
+					<li><a href="#"><span>[公告]</span>京东启动3C购物节</a></li>
+					<li><a href="#"><span>[特惠]</span>帮宝适拉拉裤低至1.16元/片</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="speedy">
+			<ul>
+				<li class="moblie">
+					<a href="#"></a>
+					<span>话费</span>
+				</li>
+				<li class="plane">
+					<a href="#"></a>
+					<span>机票</span>
+				</li>
+				<li class="movie">
+					<a href="#"></a>
+					<span>电影票</span>
+				</li>
+				<li class="game">
+					<a href="#"></a>
+					<span>游戏</span>
+				</li>
+				<li class="ticket">
+					<a href="#"></a>
+					<span>彩票</span>
+				</li>
+				<li class="tuangou">
+					<a href="#"></a>
+					<span>团购<i class="hot-ico"></i></span>
+				</li>
+				<li class="hotel">
+					<a href="#"></a>
+					<span>酒店</span>
+				</li>
+				<li class="train">
+					<a href="#"></a>
+					<span>火车票</span>
+				</li>
+				<li class="zhongchou">
+					<a href="#"></a>
+					<span>众筹</span>
+				</li>
+				<li class="money">
+					<a href="#"></a>
+					<span>理财</span>
+				</li>
+				<li class="gift">
+					<a href="#"></a>
+					<span>礼品卡</span>
+				</li>
+				<li class="baitiao">
+					<a href="#"></a>
+					<span>白条<i class="juan-ico"></i></span>
+				</li>
+			</ul>
+		</div>
+		<div class="side-ad"><img src="./images/side-ad.jpg"></div>
+	</div>
+</div>
+<div class="now clear">
+	<div class="month now-item">
+		<a href=""><img src="./images/mouth.png"></a>
+	</div>
+	<div class="clothes now-item">
+		<a href=""><img src="./images/clothes.jpg"></a>
+	</div>
+	<div class="gift now-item">
+		<a href=""><img src="./images/gift.jpg"></a>
+	</div>
+	<div class="digit now-item">
+		<a href=""><img src="./images/digit.jpg"></a>
+	</div>
+	<div class="life now-item">
+		<a href=""><img src="./images/life.jpg"></a>
+	</div>
+</div>
+<div class="like">
+	<div class="theme-title clear">
+		<h2>猜你喜欢</h2>
+		<img src="./images/guess.png">
+		<a href="">换一换<span class="glyphicon glyphicon-repeat"></span></a>
+	</div>
+	<div class="like-content">
+		<ul>
+			<li>
+				<div class="like-item">
+					<img src="./images/guess/sanxin.jpg">
+					<div class="like-info">
+						<div class="like-name"><a href="#">三星(SAMSUNG) 850 EVO 120G SATA3 固态</a></div>
+						<div class="like-price">￥852.00</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="like-item">
+					<img src="./images/guess/jsd.jpg">
+					<div class="like-info">
+						<div class="like-name"><a href="#">金士顿(Kingston)骇客神条 Fury系列 DDR3 </a></div>
+						<div class="like-price">￥99.00</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="like-item">
+					<img src="./images/guess/xyj.jpg">
+					<div class="like-info">
+						<div class="like-name"><a href="#">TCL XQB55-36SP 5.5公斤 全自动波轮洗衣机 </a></div>
+						<div class="like-price">￥3500.00</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="like-item">
+					<img src="./images/guess/jg.jpg">
+					<div class="like-info">
+						<div class="like-name"><a href="#">百草味 坚果干果 开心果200g/袋 炒货零食</a></div>
+						<div class="like-price">￥202.00</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="like-item">
+					<img src="./images/guess/milk.jpg">
+					<div class="like-info">
+						<div class="like-name"><a href="#">美素佳儿（Friso）金装幼儿配方奶粉 3段（1-3岁幼儿适用)</a></div>
+						<div class="like-price">￥92.00</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="like-item">
+					<img src="./images/guess/ls.jpg">
+					<div class="like-info">
+						<div class="like-name"><a href="#">Nestle雀巢咖啡1+2特浓30条390g</a></div>
+						<div class="like-price">￥122.00</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="jd-life">
+	<div class="theme-title clear">
+		<h2>京东&bull;品质生活</h2>
+	</div>
+	<div class="jd-life-content clear">
+		<div class="jd-life-col1">
+			<img src="./images/jd-life/col1.jpg">
+		</div>
+		<div class="jd-life-col2">
+			<span class="col-title">好物100</span>
+			<div class="col-up">
+				<a href="#" class="mode">
+					<div class="col-goods-des">
+						<p>时尚好货</p>
+						<div>让时间变成艺术</div>
+						<span>创意手镯手表</span>
+					</div>
+				</a>
+			</div>
+			<div class="col-down">
+				<a href="#" class="interested ">
+					<div class="col-goods-des">
+						<p>新奇好货</p>
+						<div>划时代新经典</div>
+						<span>HIFI有源2.0音像</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="jd-life-col3">
+			<span class="col-title">品牌街</span>
+			<div class="col-up">
+				<a href="#" class="dapai">
+					<div class="col-goods-des">
+						<p>今日大牌</p>
+						<div>森马四周年</div>
+						<span>买三免一</span>
+					</div>
+				</a>
+			</div>
+			<div class="col-down">
+				<a href="#" class="international">
+					<div class="col-goods-des">
+						<p>国际服饰</p>
+						<div>黑色小礼服</div>
+						<span>ochirly低至3折</span>
+					</div>
+				</a>
+				<a href="#" class="science">
+					<div class="col-goods-des">
+						<p>科技精品</p>
+						<div>战斧炫酷</div>
+						<span>四轮摩托车</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="jd-life-col4">
+			<ul class="goods-ico clear">
+				<li><a href="#"><img src="./images/jd-life/goodsico1.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico2.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico3.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico4.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico5.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico6.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico7.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico8.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico9.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico10.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico11.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico12.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico13.jpg"></a></li>
+				<li><a href="#"><img src="./images/jd-life/goodsico14.jpg"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="mid-ad">
+	<ul class="clear">
+		<li><a href=""><img src="./images/ad/mid-ad.jpg"></a></li>
+		<li><a href=""><img src="./images/ad/mid-ad2.jpg"></a></li>
+		<li><a href=""><img src="./images/ad/mid-ad3.jpg"></a></li>
+	</ul>
+</div>
+<div class="clothing">
+	<div class="theme-title clothing-title clear">
+		<h2>服装鞋包</h2>
+		<ul class="clear">
+			<li class="clothing-title-dapai"><a href="#">大牌</a></li>
+			<li class="clothing-title-man"><a href="#">男装</a></li>
+			<li class="clothing-title-women"><a href="#">女装</a></li>
+			<li class="clothing-title-shoes"><a href="#">鞋靴</a></li>
+			<li class="clothing-title-bag"><a href="#">箱包</a></li>
+			<li class="clothing-title-underwear"><a href="#">内衣配饰</a></li>
+			<li class="clothing-title-jewelry"><a href="#">珠宝首饰</a></li>
+			<li class="clothing-title-gift"><a href="#">奢品礼品</a></li>
+			<li class="clothing-title-watch"><a href="#">奢华腕表</a></li>
+		</ul>
+	</div>
+	<div class="clothing-content clear">
+		<div class="clothing-left">
+			<div class="clothing-left-up">
+				<ul class="clothing-theme clear">
+					<li>
+						<a href="#">
+							<i class="clothing-man"></i>
+							<span>男装</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="clothing-woman"></i>
+							<span>女装</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="clothing-underwear"></i>
+							<span>内衣</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="clothing-shoes"></i>
+							<span>鞋靴</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="clothing-bag"></i>
+							<span>箱包</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="clothing-luxury"></i>
+							<span>奢侈品</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="clothing-key clear">
+					<li>
+						<a href="#">女装新品</a>
+						<a href="#">品牌男鞋</a>
+						<a href="#">服装城</a>
+						<a href="#">太阳镜</a>
+						<a href="#">时尚女鞋</a>
+						<a href="#">男装上新</a>
+						<a href="#">舒适睡衣</a>
+						<a href="#">奢侈品</a>
+					</li>
+					<li>
+						<a href="#">菩提手串</a>
+						<a href="#">水晶手链</a>
+						<a href="#">时尚女包</a>
+						<a href="#">精品男包</a>
+						<a href="#">小叶紫萱</a>
+						<a href="#">奢品名表</a>
+						<a href="#">热销腕表</a>
+						<a href="#">新品首发</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clothing-left-down">
+				<img src="./images/clothing/left-down.jpg">
+			</div>
+		</div>
+		<div class="clothing-right">
+			<div class="clothing-dapai-show clear">
+				<div class="dapai-left">
+					<div class="glasses">
+						<a href="#"><img src="./images/clothing/glasses.jpg"></a>
+					</div>
+					<div class="underwear">
+						<a href="#"><img src="./images/clothing/underwear.jpg"></a>
+					</div>
+					<div class="watch">
+						<a href="#"><img src="./images/clothing/watch.jpg"></a>
+					</div>
+				</div>
+				<div class="dapai-right clear">
+					<ul>
+						<li><a href="#"><img src="./images/clothing/shoes-w.jpg"></a></li>
+						<li><a href="#"><img src="./images/clothing/shoes-m.jpg"></a></li>
+						<li><a href="#"><img src="./images/clothing/bag-w.jpg"></a></li>
+						<li><a href="#"><img src="./images/clothing/necklace.jpg"></a></li>
+					</ul>
+					<ul>
+						<li><a href="#"><img src="./images/clothing/shirt-m.jpg"></a></li>
+						<li><a href="#"><img src="./images/clothing/shirt-w.jpg"></a></li>
+						<li><a href="#"><img src="./images/clothing/bag-l.jpg"></a></li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="clothing-man-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m1.jpg">
+							<div class="clothing-des">杰克琼斯进口男植物染色弹力短款牛仔夹克</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m2.jpg">
+							<div class="clothing-des">布先生春夏新品男士短袖T恤 蓝色</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m3.jpg">
+							<div class="clothing-des">红豆 男装商务男士时尚V领纯色长袖T恤</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m4.jpg">
+							<div class="clothing-des">MECITY男款经典洗水牛仔衬衫 深蓝色</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m5.jpg">
+							<div class="clothing-des">TOMMY HILFIGER 水洗磨白牛仔裤</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m6.jpg">
+							<div class="clothing-des">杉杉男装春季男士商务休闲牛仔裤</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m7.jpg">
+							<div class="clothing-des">森马水洗牛仔裤 男士中低腰小直筒学生长裤</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/m8.jpg">
+							<div class="clothing-des">gxg.jeans 男 夏季新品 男士 牛仔短裤</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/m9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/m10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/m11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/m12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-women-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w1.jpg">
+							<div class="clothing-des">中长款连衣裙 香影夏装新款褶皱短袖上衣</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w2.jpg">
+							<div class="clothing-des">tune tune 甜美无袖印花欧根纱连衣裙 蓝色</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w3.jpg">
+							<div class="clothing-des">妖精的口袋 时尚花朵条纹工字褶半身裙</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w4.jpg">
+							<div class="clothing-des">玛汐 女撞色翻领长袖 印花衬衫</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w5.jpg">
+							<div class="clothing-des">TOMMY HILFIGER 水洗磨白牛仔裤</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w6.jpg">
+							<div class="clothing-des">拉夏贝尔 普埃拉 简洁百搭修身A字牛仔裙</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w7.jpg">
+							<div class="clothing-des">秋水伊人 女装时尚圆领印花撞色短袖连衣裙</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/w8.jpg">
+							<div class="clothing-des">太平鸟女装 圆领连衣裙 黄色</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/w9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/w10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/w11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/w12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-shoes-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s1.jpg">
+							<div class="clothing-des">satchi沙驰男鞋 英伦镂空男士正装皮鞋</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s2.jpg">
+							<div class="clothing-des">策乐 经典时尚休闲男鞋舒适耐磨套脚皮鞋</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s3.jpg">
+							<div class="clothing-des">金猴三接头军官皮鞋 校尉士官功勋军鞋</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s4.jpg">
+							<div class="clothing-des">SKAP ROUGE 商务休闲男鞋套脚皮鞋</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s5.jpg">
+							<div class="clothing-des">AIMIGAO爱米高 简约时尚运动休闲舒适平底鞋</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s6.jpg">
+							<div class="clothing-des">奥康美丽佳人 时尚优雅蝴蝶结女单鞋</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s7.jpg">
+							<div class="clothing-des">玖熙 镂空羊反绒高跟鞋 欧美浅口套脚休闲单鞋</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/s8.jpg">
+							<div class="clothing-des">哈森 春季新款简约尖头真皮细跟单鞋</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/s9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/s10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/s11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/s12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-bag-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b1.jpg">
+							<div class="clothing-des">爱登保罗男包 男士商务公文包时尚手提包</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b2.jpg">
+							<div class="clothing-des">高尔夫 男士手包牛皮手抓包大容量手拿包</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b3.jpg">
+							<div class="clothing-des">七匹狼男包单肩包 男士斜挎包牛皮休闲包</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b4.jpg">
+							<div class="clothing-des">新品芭比韩版公主书包1-3年级书包</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b5.jpg">
+							<div class="clothing-des">新秀丽 简约方正男女万向可旋转飞机轮拉杆箱</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b6.jpg">
+							<div class="clothing-des">泰格奴 防盗商务电脑包 双肩背包男女书包</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b7.jpg">
+							<div class="clothing-des">拉菲斯汀 单肩包女机车牛皮小包手提包</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/b8.jpg">
+							<div class="clothing-des">Kipling凯浦林 休闲女包单肩包斜挎包</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/b9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/b10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/b11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/b12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-underwear-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n1.jpg">
+							<div class="clothing-des">LOHO彩膜偏光太阳镜男女同款驾驶镜蛤蟆镜</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n2.jpg">
+							<div class="clothing-des">曼妮芬女士性感文胸 调整型侧收副乳内衣</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n3.jpg">
+							<div class="clothing-des">三枪 家居服套 爽滑密棉V领长袖长裤女家居套</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n4.jpg">
+							<div class="clothing-des">浪莎 丝袜10双 女士夏季超薄透明</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n5.jpg">
+							<div class="clothing-des">JUST MODE折叠晴雨伞太阳伞遮阳伞</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n6.jpg">
+							<div class="clothing-des">猫人/MiiOW男士莫代尔无痕U凸平角内裤</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n7.jpg">
+							<div class="clothing-des">袋鼠男士内裤 平角内裤 男棉质纯色U凸四角裤</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/n8.jpg">
+							<div class="clothing-des">恒源祥袜子男士5双礼盒装莫代尔真丝袜</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/n9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/n10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/n11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/n12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-jewelry-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z1.jpg">
+							<div class="clothing-des">周生生 黄金足金Charme串珠系列心型转运珠</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z2.jpg">
+							<div class="clothing-des">周生生 黄金足金Charme串珠系列皇冠转运珠</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z3.jpg">
+							<div class="clothing-des">蓝色多瑙河 白18k金10分钻戒 钻石戒指 花约</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z4.jpg">
+							<div class="clothing-des">千琢和田玉手镯 糖白玉和田玉镯子 附鉴定证书</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z5.jpg">
+							<div class="clothing-des">今古楼 小叶紫檀印度手链紫檀手串佛珠手串</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z6.jpg">
+							<div class="clothing-des">YYUE 天然石榴石手链女款单圈 水晶手串</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z7.jpg">
+							<div class="clothing-des">源乡阁 黑玛瑙单圈佛珠手链 男女款 8mm</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/z8.jpg">
+							<div class="clothing-des">喜钻 白18K金24分求婚结婚钻石戒指心形女戒</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/z9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/z10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/z11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/z12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-gift-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l1.jpg">
+							<div class="clothing-des">Calvin Klein Jeans CKJ太阳镜 CKJ111SAF 时尚百搭墨镜 001黑</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l2.jpg">
+							<div class="clothing-des">维多利亚的秘密女士亮黄色蕾丝面性感文胸</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l3.jpg">
+							<div class="clothing-des">MIRACLE KILL 2015海盗骷髅潮牌短袖T恤 灰色 S</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l4.jpg">
+							<div class="clothing-des">施华洛世奇 女士天鹅水晶手镯 项链耳钉</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l5.jpg">
+							<div class="clothing-des">特唯普进口电子烟套装 英国戒烟器产品 臻烟</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l6.jpg">
+							<div class="clothing-des">伟龙 创意时尚便携电动果汁杯迷你水果榨汁机</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l7.jpg">
+							<div class="clothing-des">军工金圣达3代 军用路虎电霸迷你便携 小手机</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/l8.jpg">
+							<div class="clothing-des">迈克.科尔斯 十字纹单肩斜挎笑脸包</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/l9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/l10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/l11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/l12.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="clothing-watch-show clear">
+				<ul class="item-up">
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c1.jpg">
+							<div class="clothing-des">摩纹手表原点系列棕色皮带石英男表</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c2.jpg">
+							<div class="clothing-des">欧米茄手表 碟飞系列机械男表</div>
+							<div class="clothing-price">￥299.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c3.jpg">
+							<div class="clothing-des">飞亚达(FIYTA)手表 摄影师系列机械女表</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c4.jpg">
+							<div class="clothing-des">海鸥手表 商务系列商务单历自动机械情侣表</div>
+							<div class="clothing-price">￥89.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c5.jpg">
+							<div class="clothing-des">天奈尔手表 男士机械表24小时显示男表</div>
+							<div class="clothing-price">￥199.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c6.jpg">
+							<div class="clothing-des">霸王 中式田园客厅创意复古静音大号石英钟表</div>
+							<div class="clothing-price">￥399.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c7.jpg">
+							<div class="clothing-des">雷泽男士手表 防水皮带时尚多功能运动手表</div>
+							<div class="clothing-price">￥699.00</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/clothing/c8.jpg">
+							<div class="clothing-des">威诺时手表 商务超薄女士手表</div>
+							<div class="clothing-price">￥99.00</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="item-down">
+					<li><a href="#"><img src="./images/clothing/c9.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/c10.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/c11.jpg"></a></li>
+					<li><a href="#"><img src="./images/clothing/c12.jpg"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

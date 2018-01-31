@@ -1,0 +1,300 @@
+body{}
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+dl{display: none;}
+li:hover dl{display: block;}
+/*分割线*/
+.separate{margin-top: 6px;margin-bottom: 6px;}
+/* 去浮动 */
+.clear:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+/*ico样式*/
+.phone-ico{display: block;float: left;width: 15px;height: 20px;margin-top: 6px;background: url(../images/ico/phone-ico.png) 0 0 no-repeat;}
+/*周年庆*/
+.znq-ico{position: absolute;display: block;width: 36px;height: 18px;margin-top: -36px;margin-left: 48px;background: url(../images/ico/znq.jpeg) 0 0 no-repeat;}
+
+/*顶部导航*/
+.top-nav{width: 100%;height: 30px;background-color: #F1F1F1;}
+.top-nav-menu{width: 1210px;margin: 0 auto;}
+/*城市*/
+.city{float: left;}
+.city dl{margin: 0;}
+.city li{padding: 0px 6px;height: 30px;line-height: 30px;}
+.city li:hover{background-color: #FFFFFF;border-left: 1px solid #C0C0C0;border-right: 1px solid #C0C0C0;}
+.city-selected{color: #696969;font-size: 12px;}
+.city-menu{position: absolute;display: block;width: 308px;background-color: #FFFFFF;z-index: 999999;padding: 6px 0 6px 6px;margin-left: -7px;border: 1px solid #C0C0C0;border-top: none; }
+.city-item{float: left;width: 60px;margin: 4px auto;}
+.city-item:hover a{color: #B61D1D;background-color: #F1F1F1;}
+.city-item a{color: #696969;font-size: 12px;padding: 5px 10px;}
+.city-item a:hover{text-decoration: none;}
+/*顶部导航入口*/
+.entry{float: right;}
+.entry dl{margin: 0;}
+.entry-title{color: #696969;font-size: 12px;}
+.entry-title:hover{color: #B61D1D;text-decoration: none;}
+.entry li{float: left;border-left: 1px solid #cecece;padding: 0 8px;height: 30px;line-height: 30px;}
+.entry li:first-child{border: none;}
+.username,.exit{color: #696969;font-size: 12px;}
+.username:hover,.exit:hover{color: #B61D1D;text-decoration: none;}
+/*请登录注册*/
+.pls-login a,.pls-login a:hover{color: #B61D1D;font-size: 12px;text-decoration: none;}
+.free-reg a{color: #696969;font-size: 12px;text-decoration: none;}
+.free-reg a:hover{color: #B61D1D;text-decoration: none;}
+/*我的京东*/
+.entry .myjd:hover{background-color: #ffffff;}
+.user-center{position: absolute;display: block;width: 280px;background-color: #ffffff;border: 1px solid #C0C0C0;border-top: none; z-index: 999999;margin-left: -9px;}
+.user-info{margin-top: 10px;margin-left: 14px;}
+.user-info img{float: left;width: 64px;height: 64px;border-radius: 100%;}
+.user-status{padding-top: 10px;margin-left: 80px;}
+.user-status a{font-size: 12px;color: #696969;}
+.user-status a:hover{color: #B61D1D;text-decoration: none;}
+.myjd-login{font-weight: 700;margin-bottom: 8px;}
+.user-menu{margin-top: 10px;}
+.menu-item{float: left;width: 110px;margin: 3px 14px;}
+.menu-item a{font-size: 12px;color: #696969;}
+.menu-item a:hover{color: #B61D1D;text-decoration: none;}
+.user-footprint{margin-left: 10px;}
+.user-footprint img{margin: 3px;}
+.footprint-title{padding-bottom: 5px;}
+.footprint{float: left;font-size: 12px;color: #696969;font-weight: 700;}
+/*更多*/
+.more{float: right;margin-right: 16px;}
+.more a{color: #696969;font-size: 12px;}
+.more a:hover{color: #B61D1D;text-decoration: none;}
+/*手机京东*/
+.entry .mobilejd:hover{background-color: #FFFFFF;}
+.mobile-jd{position: absolute;display: block;width: 250px;padding-top: 10px;background-color: #FFFFFF;z-index: 999999;border: 1px solid #C0C0C0;border-top: none;margin-left: -9px;}
+.client-info{margin: 0 10px;}
+.client-info img{float: left;}
+.client-details{position: relative;left: 10px;}
+.client-discount{font-size: 12px;color: #ff0000;}
+/*关注京东*/
+.entry .carejd:hover{background-color: #ffffff;}
+.jd-care{position: absolute;display: block;width: 78px;text-align: center;padding-top: 10px;background-color: #FFFFFF;z-index: 999999;border: 1px solid #C0C0C0;border-top: none;margin-left: -9px;}
+.jd-wd span{color: #696969;font-size: 12px;}
+/*客户服务*/
+.entry .servicejd:hover{background-color: #ffffff;}
+.service{position: absolute;display: block;width: 180px;padding-top: 10px;background-color: #FFFFFF;z-index: 999999;border: 1px solid #C0C0C0;border-top: none;margin-left: -9px;}
+.service-object-title{font-weight: 700;font-size: 12px;color: #696969;}
+.service-object{margin-left: 10px;}
+.service-item{float: left;padding: 4px 24px 4px 4px;font-size: 12px;color: #696969;}
+/*网站导航*/
+.entry .navjd:hover{background-color: #ffffff;}
+.web-nav{position: absolute;display: block;width: 1210px;left: 50%;margin-left: -605px;padding-top: 20px;padding-bottom: 16px;background-color: #FFFFFF;z-index: 999999;border: 1px solid #C0C0C0;border-top: none;}
+.web-typt{float: left;border-right: 1px solid #C0C0C0;margin-left: 16px;}
+.web-typt-title{margin-bottom: 6px;color: #696969;font-size: 14px;font-weight: 700;}
+.web-typt:last-child{border-right: none;}
+.web-feature{width: 347px;}
+.web-industry,.web-life,.web-more{width: 259px;}
+.nav-item{float: left;padding-top: 3px;padding-bottom: 3px;width: 86px;}
+.nav-item a{font-size: 12px;color: #696969;}
+/*顶部广告*/
+.top-ad{display: block;width: 100%;height: 80px;background: url(../images/ad/ad-top.jpg);}
+/*log及首页搜索*/
+.form{width: 1210px;height: 80px;margin: 20px auto 0px;}
+.form-item{float: left;}
+.logo{width: 362px;height: 60px;}
+.search-box input{margin-top: 5px;width: 446px;height: 36px;border: 2px solid #B61D1D;padding-left: 5px;}
+.search-box input:focus{border: 2px solid #B61D1D;outline:none;}
+.btn-search{width: 82px;height: 36px;background-color: #B61D1D;border: none;color: #ffffff;font-weight: 700;letter-spacing: 2px;margin-left: -4px;}
+.search-tips{margin-top: 3px;}
+.search-tips a{padding: 0 3px;font-size: 10px;color: #696969;}
+.search-tips a:first-child{color: #B61D1D;}
+.search-tips a:hover{color: #B61D1D;text-decoration: none;}
+/*购物车*/
+.car-entry span:first-child{color: #B61D1D;}
+.buy-car{float: right;margin-right: 65px;margin-top: 5px;width: 141px;height: 36px;text-align: center;border: 1px solid #D3D3D3;background-color: #F9F9F9;}
+.buy-car:hover dl{display: block;}
+.car-entry{margin-top: 6px;}
+.car-entry span{color: #696969;font-size: 12px;margin-left: 3px;}
+.car-entry i{margin-left: 8px;}
+.buy-car-info{position: relative;display: block;width: 300px;height: 49px;border: 1px solid #C0C0C0;border-top: none;margin-top: 9px;margin-left: -160px;background-color: #ffffff;}
+.buy-car-info img{width: 50px;height: 45px;}
+.buy-car-info span{font-size: 12px;color: #696969;}
+.buy-car:hover{background-color: #ffffff;}
+.buy-car:hover.buy-car{border-bottom: none;}
+/*商品导航*/
+.goods-nav-box{width: 100%;border-bottom: 2px solid #B61D1D;}
+.goods-column{width: 1210px;margin: 0 auto;}
+.goods-column ul{float: left;margin-top: 12px;}
+.goods-column ul li{float: left;padding: 0 17px; }
+.goods-column ul li a{color: #333;letter-spacing: 2px;text-decoration: none;font-size: 16px;}
+.goods-column ul li a:hover{color: #B61D1D;}
+.goods-all{float: left;width: 210px;height: 44px;line-height: 44px;background-color: #B61D1D;}
+.goods-all a{color: #ffffff;padding-left: 10px;font-size: 14px;font-weight: 700;}
+.goods-all a:hover{text-decoration: none;color: #ffffff;}
+/*中心内容*/
+.focus{position: relative;width: 1210px;margin: 0 auto;}
+.goods-nav{float: left;width: 210px;height: 466px;border-left: 1px solid #B61D1D;background-color: #C81623;color: #000000;}
+.goods-nav ul li{padding: 6px 0;font-size: 12px;}
+.goods-nav ul li:hover{background-color: #ffffff;}
+.goods-nav ul li:hover .focus-nav-item{color: #B61D1D;}
+.goods-nav .focus-nav-item{color: #ffffff;padding-left: 10px;text-decoration: none;font-size: 13px;}
+.goods-nav .focus-nav-ico{float: right;margin-right: 5px;color: #ffffff;}
+.goods-nav dl{margin: 0;}
+.goods-nav .goods-category{position: absolute;display: block;top: 0px;margin-left: 210px;width: 1000px;height: 454px;z-index: 99999;border-right: 1px solid #B61D1D;border-bottom: 1px solid #B61D1D;background-color: #F7F7F7;}
+/*家用电器*/
+.goods-category-left{float: left;width: 800px;margin-top: 20px;}
+.category-theme{margin-left: 14px;}
+.category-theme ul li{float: left;margin: 0 6px;padding: 6px;background-color: #7C7171;}
+.category-theme ul li:hover{background-color: #C81623;}
+.category-theme ul li:hover i{background-color: #B61D1D;}
+.category-theme ul li a{color: #ffffff;font-weight: 700;text-decoration: none;}
+.category-theme ul li a i{background-color: #5C5251;padding: 7px;margin: 0 -6px 0 6px;}
+.category-menu{margin-top: 10px;margin-left: 20px;}
+.category-item{display: block;margin-top: 12px;}
+.category-name{float: left;padding: 6px 0;color: #696969;font-weight: 700;}
+.category-name:hover{color: #C81623;text-decoration: none;}
+.category-content{display: block;float: left;width: 700px;margin-left: 10px;}
+.category-content li{float: left;padding: 0 10px;border-bottom: 1px solid #D3D3D3;}
+.category-content li a{color: #808080;text-decoration: none;padding: 0 10px;border-left: 1px solid #D3D3D3;}
+.category-content li a:hover{color: #C81623;}
+.category-goods-right{float: right;margin-top: 20px;margin-right: 20px;width: 170px;}
+.category-goods-right ul li{float: left;padding: 1px;}
+/*切换*/
+.banner{position: relative;float: left;width: 730px;height: 454px;margin-left: 10px;margin-top: 12px;}
+.banner:hover .banner-btn{display: block;}
+.banner-change{position: relative;width: 730px;height: 454px;}
+.banner-change li{position: absolute;display: none;}
+.banner-change li:first-child{display: block;}
+.banner-btn{display: none;}
+.banner-btn .prev,.banner-btn .next{display: block;width: 70px;height: 70px;cursor: pointer;position: absolute;top: 50%;margin-top: -35px;background: url(../images/banner-btn.png) no-repeat;}
+.banner-btn .prev{background-position: 0px 0px;left: 0px;}
+.banner-btn .next{background-position: 0px -70px;right: 0px;}
+.banner-nav{position: absolute;width: 100%;bottom: 10px;text-align: center;}
+.banner-nav li{width: 20px;height: 20px;border-radius: 50%;margin: 0 10px;text-align: center;cursor: pointer;display: inline-block;}
+.banner-nav li:hover{background-color: #C81623;}
+.banner-nav li a{color: #ffffff;}
+.active{background-color: #C81623;}
+.side-bar{float: left;width: 250px;height: 454px;margin-left: 10px;margin-top: 12px;}
+/*京东快报*/
+.news{width: 249px;height: 162px;border: 1px solid #C0C0C0;border-bottom: none;}
+.news-title{height: 32px;border-bottom: 1px solid #C0C0C0;}
+.news-title h2{float: left;font-size: 14px;color: #696969;margin-left: 10px;margin-top: 7px;}
+.news-title a{float: right;font-size: 12px;color: #696969;margin-top: 7px;margin-right: 10px;}
+.news-title a:hover{color: #B61D1D;text-decoration: none;}
+.news-content li{margin-top: 4px;}
+.news-content li a{font-size: 12px;color: #696969;}
+.news-content li a span{font-weight: 700;margin: 0 6px;}
+/*快速入口*/
+.speedy{width: 249px;height: 205px;border: 1px solid #C0C0C0;border-left: none;border-bottom: none;}
+.speedy ul li{float: left;width: 62px;height: 68px;border-left: 1px solid #C0C0C0;border-bottom: 1px solid #C0C0C0;}
+.speedy ul li a{width: 62px;height: 25px;display: block;margin-top: 10px;}
+.hot-ico,.juan-ico{position: absolute;display: block;width: 12px;height: 15px;margin-top: -60px;margin-left: 50px;background: url(../images/ico/juan.png) 0 0 no-repeat;}
+.moblie a{background: url(../images/ico/speedy.png) no-repeat 19px 0px;}
+.plane a{background: url(../images/ico/speedy.png) no-repeat 19px -25px;}
+.movie a{background: url(../images/ico/speedy.png) no-repeat 19px -50px;}
+.game a{background: url(../images/ico/speedy.png) no-repeat 19px -75px;}
+.ticket a{background: url(../images/ico/speedy.png) no-repeat 19px -100px;}
+.tuangou a{background: url(../images/ico/speedy.png) no-repeat 19px -125px;}
+.hotel a{background: url(../images/ico/speedy.png) no-repeat 19px -150px;}
+.train a{background: url(../images/ico/speedy.png) no-repeat 19px -175px;}
+.zhongchou a{background: url(../images/ico/speedy.png) no-repeat 19px -250px;}
+.money a{background: url(../images/ico/speedy.png) no-repeat 19px -200px;}
+.gift a{background: url(../images/ico/speedy.png) no-repeat 19px -275px;}
+.baitiao a{background: url(../images/ico/speedy.png) no-repeat 19px -225px;}
+.speedy ul li span{display: block;margin-top: 8px;text-align: center;font-size: 12px;color: #696969;}
+.side-ad{margin-top: 10px;width: 248px;height: 75px;}
+/*当前活动*/
+.now{margin: 10px auto;width: 1213px;height: 164px;}
+.now-item{float: left;margin-right: 1px;}
+.month,.life{margin: 0;}
+/*猜你喜欢*/
+.like{margin: 0 auto;width: 1210px;height: 269px;}
+/*栏目标题*/
+.theme-title h2{float: left;margin: 0;font-size: 22px;}
+.theme-title img{float: left;margin-top: 4px;}
+.theme-title a{float: right;font-size: 12px;color: #696969;}
+.theme-title a:hover{color: #B61D1D;text-decoration: none;}
+.like-content{width: 1210px;height: 232px;border: 1px solid #C0C0C0;}
+.like-content ul li{float: left;width: 201px;}
+.like-item{text-align: center;margin-top: 24px;}
+.like-info{border-left: 1px solid #C0C0C0;}
+.like-info a{font-size: 12px;color: #696969;}
+.like-info a:hover{color: #B61D1D;text-decoration: none;}
+.like-name{height: 36px;}
+.like-price{margin-top: 3px;color: #B61D1D;font-size: 16px;font-weight: 700;}
+/*京东品质生活*/
+.jd-life{margin: 15px auto 0;height: 443px;width: 1210px;}
+.jd-life-content{width: 1210px;height: 406px;border: 1px solid #C0C0C0;}
+.jd-life-col1{float: left;width: 403px;height: 406px;}
+.jd-life-col2{float: left;width: 229px;height: 405px;border-left: 1px solid #C0C0C0;border-right: 1px solid #C0C0C0;}
+.col-title{display: block;height: 40px;line-height: 40px;text-align: center;border-bottom: 1px solid #C0C0C0;border-bottom-style: dashed;font-weight: 700;''}
+.mode{display: block;height: 205px;padding-top: 80px;padding-left: 20px;background: url(../images/jd-life/mode.jpg);}
+.mode:hover{text-decoration: none;}
+.col-goods-des p{color: #333;font-size: 16px;font-weight: 700;}
+.col-goods-des div{font-size: 12px;color: #696969;}
+.col-goods-des span{font-size: 12px;color: #B61D1D;}
+.interested{display: block;height: 158px;padding-top: 50px;padding-left: 20px;background: url(../images/jd-life/music.jpg);}
+.interested:hover{text-decoration: none;}
+.jd-life-col3{float: left;width: 404px;height: 406px;}
+.dapai{display: block;height: 205px;padding-top: 80px;padding-left: 30px;background: url(../images/jd-life/clothes.jpg);}
+.dapai:hover{text-decoration: none;}
+.international{float: left;display: block;width: 202px;height: 158px;padding-top: 50px;padding-left: 20px;background: url(../images/jd-life/international.jpg);}
+.international:hover{text-decoration: none;}
+.science{float: left;display: block;width: 202px;height: 158px;padding-top: 50px;padding-left: 20px;background: url(../images/jd-life/science.jpg);}
+.science:hover{text-decoration: none;}
+.jd-life-col4{float: left;width: 171px;height: 405px;border-left: 1px solid #C0C0C0;}
+.goods-ico li{float: left;}
+.mid-ad{width: 1210px;height: 125px;margin: 15px auto 0;}
+.mid-ad ul li{float: left;}
+/*服装鞋包*/
+.clothing{width: 1210px;margin: 15px auto;}
+.clothing-title{border-bottom: 1px solid #C81623;}
+.theme-title h2{float: left;margin: 0;}
+.theme-title ul{float: right;width: 618px;height: 34px;border: 1px solid #C0C0C0;border-bottom: none;margin: 0;}
+.theme-title ul li{float: left;height: 34px;}
+.theme-title ul li a{font-size: 12px;border-left: 1px solid #C0C0C0;margin-top: 7px;padding: 0 16px;}
+.theme-title ul li a:hover{text-decoration: none;color: #B61D1D;}
+.theme-title ul li:first-child a{border-left: none;}
+.clothing-content{width: 1210px;height: 633px;}
+.clothing-left{display: block;float: left;width: 330px;height: 633px;}
+.clothing-left-up{display: block;height: 474px;background: url(../images/clothing/left-up.jpg);}
+.clothing-theme{padding-top: 254px;}
+.clothing-theme li{float: left;padding: 10px 20px;}
+.clothing-theme li i{display: block;float: left;width: 26px;height: 26px;}
+.clothing-theme li span{margin-left: 5px;color: #696969;}
+.clothing-theme li a:hover{text-decoration: none;}
+.clothing-theme li a:hover span{color: #B61D1D;}
+.clothing-man{background: url(../images/clothing/clothing-theme.png) no-repeat 0px 0px;}
+.clothing-woman{background: url(../images/clothing/clothing-theme.png) no-repeat 0px -26px;}
+.clothing-underwear{background: url(../images/clothing/clothing-theme.png) no-repeat 0px -52px;}
+.clothing-shoes{background: url(../images/clothing/clothing-theme.png) no-repeat 0px -78px;}
+.clothing-bag{background: url(../images/clothing/clothing-theme.png) no-repeat 0px -104px;}
+.clothing-luxury{background: url(../images/clothing/clothing-theme.png) no-repeat 0px -130px;}
+.clothing-key{width: 330px;height: 129px;background-color: #EAEBF5;}
+.clothing-key li{display: block;float: left;width: 165px;text-align: center;padding-left: 16px;}
+.clothing-key li a{float: left;padding: 5px;text-decoration: none;font-size: 12px;color: #696969;}
+.clothing-key li a:hover{color: #B61D1D;}
+.clothing-right{display: block;float: left;width: 880px;height: 633px;border-right: 1px solid #C0C0C0;border-bottom: 1px solid #C0C0C0;}
+/*大牌*/
+.dapai-left{float: left;width: 440px;height: 633px;}
+.dapai-left >div{border-top: 1px solid #C0C0C0;}
+.dapai-left >div:first-child{border-top: none;}
+.dapai-right{float: left;width: 438px;height: 633px;}
+.dapai-right ul{float: left;width: 219px;height: 633px;border-left: 1px solid #C0C0C0;margin: 0;padding: 0;}
+.dapai-right ul li{float: left;border-top: 1px solid #C0C0C0;}
+.dapai-right ul li:first-child{border-top: none;}
+/*男装*/
+.clothing-man-show{display: none;}
+/*女装*/
+.clothing-women-show{display: none;}
+/*鞋靴*/
+.clothing-shoes-show{display: none;}
+/*包*/
+.clothing-bag-show{display: none;}
+/*内衣*/
+.clothing-underwear-show{display: none;}
+/*珠宝*/
+.clothing-jewelry-show{display: none;}
+/*礼品*/
+.clothing-gift-show{display: none;}
+/*手表*/
+.clothing-watch-show{display: none;}
+.item-up{display: block;margin: 0px;width: 890px;height: 474px;}
+.item-up li{float: left;width: 220px;height: 237px;border-left: 1px solid #C0C0C0;border-bottom: 1px solid #C0C0C0;}
+.item-up li a{text-align: center;text-decoration: none;}
+.item-up li a img{display: block;width: 130px;height: 130px;margin: 15px auto;}
+.clothing-des{color: #666;margin: 10px auto;width: 180px;height: 36px;font-size: 12px;}
+.clothing-price{color: #ff0000;margin-top: 5px;}
+.item-down{margin: 0px;}
+.item-down li{float: left;}
